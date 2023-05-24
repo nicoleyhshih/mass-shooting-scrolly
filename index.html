@@ -1,0 +1,41 @@
+<!-- This is a wrapper around the scrolly in case you want to apply extra styling (see Step 6 in the help doc) -->
+<div id="my-wrapper">
+ 
+    <!--  Drop your choice of Flourish embed code - you can use either the script or iframe embed codes here -->
+    <div class="flourish-embed" data-src="story/1922952?70747" data-url="https://flo.uri.sh/story/1922952/embed" data-height="100vh"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+     
+    <!-- Here is where you add your captions, linking them to specific slides in the story -->
+   
+    <p>Retail<a href="#story/1922952/slide-1"></a></p>
+    <p>Restaurant/Nightclub<a href="#story/1922952/slide-2"></a></p>
+    <p>Warehouse/Factory<a href="#story/1922952/slide-3"></a></p>
+    <p>Office<a href="#story/1922952/slide-4"></a></p>
+    <p>Place of Residence<a href="#story/1922952/slide-5"></a></p>
+    <p>Outdoors<a href="#story/1922952/slide-6"></a></p>
+    <p>K-12 School<a href="#story/1922952/slide-7"></a></p>
+    <p>House of Worship<a href="#story/1922952/slide-8"></a></p>
+    <p>Government Building / Place of Civic Importance<a href="#story/1922952/slide-9"></a></p>
+    <p>College/University<a href="#story/1922952/slide-10"></a></p>
+    <p>Post Office<a href="#story/1922952/slide-11"></a></p>
+    
+    </div>
+     
+    <!-- Add the Flourish Scrolly library -->
+    <script src="https://cdn.flourish.rocks/flourish-scrolly-v3.1.0.min.js" type="text/javascript"></script>
+     
+    <!-- Initialize the library to turn your story into scrolly magic! -->
+    <script type="text/javascript">initFlourishScrolly();</script>
+
+
+    <style>
+        @media screen and (min-width: 680px) {
+            #my-wrapper {
+                margin-left: 35vw;
+                width: 60vw;
+            }
+            .fl-scrolly-step {
+                margin-left: -35vw !important;
+                width: 25vw !important;
+            }
+        }
+    </style>
